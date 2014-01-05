@@ -1,6 +1,6 @@
 # Brunch app
 
-This is HTML5 application, built with [Brunch](http://brunch.io).
+This is a full-stack Javascript application, built with [Node.js](http://nodejs.org), [Express](http://expressjs.com/), [Twitter Bootstrap](http://getbootstrap.com/), [Hogan.js](http://twitter.github.io/hogan.js/), [Bower](http://bower.io) and [Brunch](http://brunch.io).
 
 ## Getting started
 * Install (if you don't have them):
