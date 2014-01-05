@@ -1,0 +1,27 @@
+{
+  "name": "jz4justice",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.10.1"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "brunch test"
+  },
+  "dependencies": {
+    "express": "3.4.7",
+    "hjs": "*",
+    "less-middleware": "*",
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "hoganjs-brunch": "1.1.1",
+    "uglify-js-brunch": ">= 1.0 < 1.8",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "imageoptmizer-brunch": "0.0.4",
+    "auto-reload-brunch": ">= 1.0 < 1.8"
+  }
+}
