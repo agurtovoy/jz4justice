@@ -1,4 +1,4 @@
-# Brunch app
+# jz4justice.org
 
 This is a full-stack Javascript application, built with [Node.js](http://nodejs.org), [Express](http://expressjs.com/), [Twitter Bootstrap](http://getbootstrap.com/), [Hogan.js](http://twitter.github.io/hogan.js/), [Bower](http://bower.io) and [Brunch](http://brunch.io).
 
@@ -12,6 +12,4 @@ This is a full-stack Javascript application, built with [Node.js](http://nodejs.
     * `brunch watch --server` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
     * `brunch build --production` — builds minified project for production
 * Learn:
-    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-    * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Chaplin site](http://chaplinjs.org)
+    * `public/` dir is fully auto-generated and served by HTTP server.  Put client code and assets in the `client/` dir.
