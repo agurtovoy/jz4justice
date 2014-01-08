@@ -2,10 +2,47 @@
 @import "bootstrap-variables.less";
 
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+//    padding-top: 70px;
 }
 
-a {
-  color: #00B7FF;
+
+.paid-for-disclaimer {
+    font-size: 12px;
+    font-style: italic;
+    position: fixed;
+    right: 10pt;
+    bottom: 1.5%;
 }
+
+
+.font-page-content {
+    margin-top: 50pt;
+    h1 { font-family: 'open-sans-condensed'; }
+}
+
+img.parallax {
+    position: fixed;
+    height: 88%;
+    top: 0;
+    left: 0;
+}
+
+img.brand-logo {
+    position: fixed;
+    bottom: 1.5%;
+    left: 30pt;
+    height: 9%;
+    width: auto;
+}
+
+@media (max-width: 990px){
+    img.parallax { display: none; }
+    img.brand-logo {
+      position: relative;
+      width: 300pt;
+      left: 0;
+      padding-top: 10pt;
+      padding-left: 15pt;
+      }
+
+  }

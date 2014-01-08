@@ -4,6 +4,5 @@
  */
 
 exports.index = function(req, res){
-    console.log('routes/index')
-  res.render('index', { title: 'Express' });
+  res.render( 'index', { title: 'John Zimmerman for Johnson County Attorney', production: this.get('env') != 'development' } );
 };

@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/main.css' />
-  </head>
-  <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <title>{{title}}</title>
+
+    <script type="text/javascript">
+        function loadAsync( scriptURL ) {
+            var scriptNode = document.createElement('script'); scriptNode.type = 'text/javascript'; scriptNode.async = true;
+            scriptNode.src = scriptURL;
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore( scriptNode, s );
+        }
+    </script>
+
+    <script type="text/javascript">
+        loadAsync( "http://use.edgefonts.net/open-sans-condensed.js" );
+        loadAsync( "http://use.edgefonts.net/merienda-one.js" );
+    </script>
+
+    <link href="stylesheets/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<img class="brand-logo" src="/images/logo_plain.svg">
+<img class="parallax" src="/images/front-page-portrait.png">
+
+<div class="container font-page-content">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-6">
+            <h1>Do you support John's vision of a truly progressive justice system that's worthy of its name?</h1>
+            <p>The most effective way you can help John at this early stage of his campaign is by donating funds to
+                fuel our efforts to spread the word.
+                </p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="KHSFMM5H5XMRN">
+                <button type="buttom" name="submit" alt="Donate with PayPal" class="btn btn-primary btn-lg">Donate to John's Campaign</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="paid-for-disclaimer">Paid for by Zimmerman for County Attorney</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+{{#production}}
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-46940409-1', 'jz4justice.org');
+    ga('send', 'pageview');
+</script>
+{{/production}}
+
+</body>
 </html>
