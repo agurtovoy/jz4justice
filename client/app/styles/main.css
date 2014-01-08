@@ -7117,6 +7117,7 @@ td.visible-print {
   bottom: 1.5%;
   font-size: 12px;
   font-style: italic;
+  background-color: white;
 }
 
 .social-buttons-sidebar ul {
@@ -7125,6 +7126,10 @@ td.visible-print {
 
 .social-buttons-sidebar ul li {
   list-style-type: none;
+}
+
+footer .social-buttons-sidebar {
+  background-color: white;
 }
 
 footer .social-buttons-sidebar ul {
