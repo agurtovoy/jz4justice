@@ -36,7 +36,7 @@
 <body>
 
 <img class="brand-logo" src="/images/logo_plain.svg">
-<img class="parallax" src="/images/front-page-portrait.png">
+<img class="parallax" src="/images/front-page-portrait.jpg">
 
 <div class="container font-page-content">
     <div class="row">
