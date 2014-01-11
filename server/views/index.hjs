@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="elections, politics, Johnson County, County Attorney, 2014, Zimmerman, liberty, justice, incarceration, racial disparity, war on drugs, marijuana, public intox" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="The official site of the John Zimmerman for Johnson County Attorney Campaign. John is running for the Democratic nomination for County Attorney of Johnson County, Iowa, to make the county's criminal justice system more just for all.">
+
     <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="canonical" href="http://jz4justice.org/">
+    <link rel="shortlink" href="http://jz4justice.org/">
+    <link rel="publisher" href="https://plus.google.com/117251268163465688451">
 
     <title>{{title}}</title>
 
@@ -35,8 +38,8 @@
 
 <body>
 
-<img class="brand-logo" src="/images/logo_plain.svg">
-<img class="parallax" src="/images/front-page-portrait.jpg">
+<img class="brand-logo" src="/images/logo_plain.svg" alt="John Zimmerman for Johnson County Attorney">
+<img class="parallax" src="/images/front-page-portrait.jpg" alt="John Zimmerman portrait">
 
 <div class="container font-page-content">
     <div class="row">
