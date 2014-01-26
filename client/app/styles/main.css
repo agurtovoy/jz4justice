@@ -7112,31 +7112,28 @@ td.visible-print {
 }
 
 .paid-for-disclaimer {
-  position: fixed;
-  right: 10pt;
-  bottom: 1.5%;
+  float: right;
+  margin-right: 10pt;
+  margin-bottom: 10pt;
   font-size: 12px;
   font-style: italic;
   background-color: white;
 }
 
 .social-buttons-sidebar ul {
+  float: right;
   margin: 0;
+  margin-top: 10pt;
 }
 
 .social-buttons-sidebar ul li {
+  display: inline-block;
+  padding-right: 10px;
   list-style-type: none;
 }
 
 footer .social-buttons-sidebar {
   background-color: white;
-}
-
-footer .social-buttons-sidebar ul {
-  position: fixed;
-  right: 10pt;
-  bottom: 5%;
-  margin: 0;
 }
 
 footer .social-buttons-sidebar ul li {

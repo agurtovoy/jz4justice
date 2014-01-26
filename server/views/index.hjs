@@ -42,12 +42,26 @@
 <img class="parallax" src="/images/front-page-portrait.jpg" alt="John Zimmerman portrait">
 
 <div class="container font-page-content">
+
+    <div class="row">
+        <div class="col-md-6 col-md-offset-6">
+            <iframe width="100%" height="315" src="//www.youtube-nocookie.com/embed/JSnzy2zPk6Y" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </idv>
     <div class="row">
         <div class="col-md-6 col-md-offset-6">
             <h1>Do you support John's vision of a truly progressive justice system that's worthy of its name?</h1>
             <p>The most effective way you can help John at this early stage of his campaign is by donating funds to
                 fuel our efforts to spread the word.
                 </p>
+            <div class="social-buttons-sidebar">
+                <ul>
+                    <li><div class="fb-like" data-href="http://jz4justice.org"
+                             data-colorscheme="light" data-layout="button_count" data-action="like"
+                             data-show-faces="false" data-send="false"></div></li>
+                    <li><a href="https://twitter.com/share" class="twitter-share-button" data-via="VoteNoNewJail"></a></li>
+                </ul>
+            </div>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="KHSFMM5H5XMRN">
@@ -63,18 +77,15 @@
                 ask him a question on <a href="https://www.facebook.com/jz4justice" target="_blank">Facebook</a>, or give him a call at 319.499.8917</p>
         </div>
     </div>
-</div>
+
+    <div class="row">
+        <div class="col-md-6 col-md-offset-6">
+            <br><br>
+            <div class="paid-for-disclaimer">Paid for by Zimmerman for County Attorney</div>
+        </div>
+    </div>
 
 <footer>
-    <div class="social-buttons-sidebar">
-        <ul>
-            <li><div class="fb-like" data-href="http://jz4justice.org"
-                     data-colorscheme="light" data-layout="button_count" data-action="like"
-                     data-show-faces="false" data-send="false"></div></li>
-            <li><a href="https://twitter.com/share" class="twitter-share-button" data-via="VoteNoNewJail"></a></li>
-        </ul>
-    </div>
-    <div class="paid-for-disclaimer">Paid for by Zimmerman for County Attorney</div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
