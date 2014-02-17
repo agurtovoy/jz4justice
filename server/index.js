@@ -8,6 +8,7 @@ var http = require('http');
 var path = require('path');
 var routes = require('./routes');
 var user = require('./routes/user');
+var nationbuilder = require('./routes/nationbuilder');
 
 var app = express();
 
@@ -33,7 +34,8 @@ if ('development' == app.get('env')) {
 }
 
 app.get( '/', routes.index.bind( app ) );
-app.get( '/users', user.list );
+app.get( '/login', nationbuilder.login );
+//app.get( '/users', user.list );
 
 exports.app = app;
 
