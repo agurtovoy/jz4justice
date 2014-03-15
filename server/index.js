@@ -9,6 +9,7 @@ var path = require('path');
 var routes = require('./routes');
 var user = require('./routes/user');
 var nationbuilder = require('./routes/nationbuilder');
+var mailman = require('./routes/mailman');
 
 var app = express();
 
@@ -36,6 +37,7 @@ if ('development' == app.get('env')) {
 app.get( '/', routes.index.bind( app ) );
 app.get( '/login', nationbuilder.login );
 app.get( '/admin', nationbuilder.admin );
+app.get( '/team-discussion', mailman.team_discussion );
 //app.get( '/users', user.list );
 
 exports.app = app;
