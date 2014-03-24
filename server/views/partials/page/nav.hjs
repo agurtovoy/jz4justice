@@ -1,0 +1,38 @@
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="page-container container-fluid">
+
+        <div class="navbar-header">
+{{!
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            }}
+            <a class="navbar-brand-logo" href="/platform/">
+                <img src="/images/logo-scales.svg" alt="Zimmerman for County Attorney">
+            </a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="{{pageActive pageName 'platform'}}"><a href="/platform/">Platform</a></li>
+                <li class="{{pageActive pageName 'vote'}}"><a href="/vote/">Where do I vote?</a></li>
+{{!
+                <li class=""><a href="/yard-sign/">Get a Yard Sign!</a></li>
+                <li><a href="#contact">Events</a></li>}}
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="{{pageActive pageName 'volunteer'}}"><a href="/volunteer/">Volunteer</a></li>
+                <li class="{{pageActive pageName 'donate'}}"><a href="/donate/">Donate</a></li>
+{{!                <li><a href="../navbar-fixed-top/">Resources</a></li>
+                <li><a href="../navbar-fixed-top/">Blog</a></li>
+                }}
+                <li class="meet-john {{pageActive pageName 'meet-john'}}"><a href="/meet-john/"><span>Meet John</span></a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>

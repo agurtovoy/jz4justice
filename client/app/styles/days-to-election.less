@@ -1,0 +1,62 @@
+
+.days-to-election {
+
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .count {
+    font-family: @font-family-serif;
+    font-size: 52px;
+    color: @brand-secondary;
+    vertical-align: top;
+  }
+
+  .text {
+    font-family: 'Rama Slab Light';
+    font-size: 50px;
+    small {
+      font-size: 18px;
+      color: #ffffff;
+    }
+  }
+
+  .form-inline {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+
+    .form-control {
+      width: 190px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      margin-right: 5px;
+    }
+
+    .btn {
+      font-family: @brand-primary-font;
+      font-size: 32px;
+      line-height: 32px;
+      padding: 4px 14px;
+      .transition(0.2s ease-in-out);
+
+      &:hover {
+        background-color: @brand-secondary;
+        border-color: @brand-secondary;
+      }
+    }
+  }
+
+  @media (max-width: @footer-column-max-width) {
+    .form-inline {
+      width: 200px;
+    }
+  }
+
+}

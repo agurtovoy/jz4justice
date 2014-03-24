@@ -7,6 +7,8 @@
     "bower_components"
   ],
   "dependencies": {
-    "bootstrap": "~3.0.3"
+    "bootstrap": "~3.0.3",
+    "jquery": "~1.10.2",
+    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git"
   }
 }

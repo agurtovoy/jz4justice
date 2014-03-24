@@ -1,0 +1,15 @@
+
+<div class="page-container container-fluid volunteer">
+    <div class="row">
+        <div class="content-column">
+            <h1>Want to volunteer?<small></small></h1>
+            <div class="content">
+                <p>Awesome! John's campaign is run by grassroot activists just like you.
+                    Shoot us an email to <a href="mailto:team@jz4justice.org">team@jz4justice.org</a> and somebody from our team will
+                    get in touch with you soon!
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>

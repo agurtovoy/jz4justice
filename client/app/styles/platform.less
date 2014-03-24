@@ -1,0 +1,180 @@
+
+.platform-issues {
+  margin-top: 20px;
+  padding-top: 90px;
+  background-image: url("/images/issues_star.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 70%;
+  a {
+    color: #1a1a1a;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: @brand-secondary;
+      h1 {
+        font-size: 57px;
+        margin-bottom: 60px;
+      }
+    }
+
+    h1 {
+      margin-top: 0px;
+      margin-bottom: 70px;
+      line-height: 0.9;
+      font-size: 47px;
+      .transition(0.2s ease-in-out);
+
+      small {
+        display: block;
+        font-family: @brand-light-font;
+        font-size: 20px;
+        color: #1a1a1a;
+      }
+    }
+  }
+}
+
+
+@platform-issues-downsize-point: 1010px;
+@media (max-width: @platform-issues-downsize-point) {
+  .platform-issues {
+    a {
+
+      &:hover,
+      &:focus {
+        h1 {
+          font-size: 48px;
+          margin-bottom: 60px;
+        }
+      }
+
+      h1 {
+        font-size: 40px;
+        small {
+          font-family: @brand-light-font;
+          font-weight: lighter;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+
+
+.platform-column-sidebar-left {
+  .hidden-xs;
+  position: relative;
+  float: left;
+  left: 50%;
+  margin-left: -@content-column-width/2 - 130px;
+  h1 {
+    width: 100px;
+    text-align: right;
+  }
+}
+
+
+.platform-quote {
+  background-image: url("/images/ripped-paper-background.svg");
+  background-repeat: repeat-x;
+  background-position: center top;
+
+  blockquote {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+    border: 0px;
+
+    p {
+      font-size: 16px;
+      font-style: italic;
+      font-weight: normal;
+      text-align: justify;
+    }
+
+    footer {
+      font-family: @font-family-sans-serif;
+      font-size: 14px;
+      font-style: italic;
+      text-align: right;
+    }
+  }
+}
+
+
+@media (max-width: @grid-float-breakpoint-max) {
+  .platform-issues {
+    display: none;
+  }
+
+  .platform-quote {
+    margin-top: 50px;
+  }
+}
+
+
+@media (max-width: 460px) {
+  .platform-quote {
+    background-image: url("/images/ripped-paper-background.svg");
+    background-repeat: no-repeat;
+    background-size: auto 280px;
+  }
+}
+
+
+
+.platform-issue {
+  margin-top: 50px;
+
+  h1 {
+    margin-top: 10px;
+    line-height: 0.9;
+    font-size: 57px;
+    display: inline-block;
+    .transition(0.2s ease-in-out);
+
+    small {
+      display: block;
+      font-family: @brand-light-font;
+      font-weight: lighter;
+      font-size: 35px;
+      color: #666666;
+    }
+
+    &.issue-num {
+      margin-top: 0px;
+      margin-right: 20px;
+      color: @brand-secondary;
+      font-size: 150px;
+      display: inline-block;
+    }
+  }
+
+  .content {
+    //text-align: justify;
+
+    p {
+      &:last-of-type {
+        margin-bottom: 0px;
+      }
+    }
+
+    &:after {
+      .center-block;
+      content: 'x';
+      font-family: 'GothicExtras-B';
+      font-size: 24px;
+      line-height: 24px;
+      text-align: center;
+      margin-bottom: 40px;
+      color: @brand-secondary;
+    }
+  }
+}
+
+.platform-issues-list {
+  margin-bottom: 40px;
+}

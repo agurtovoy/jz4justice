@@ -1,0 +1,136 @@
+
+.navbar-brand-logo {
+  .transition(0.5s ease-in-out);
+  position: absolute;
+  padding: 0px;
+  width: 174px;
+  top: -1px;
+  left: 50%;
+  margin-left: -87px - @sidebar-width / 2;
+}
+
+
+.navbar {
+  .transition(0.5s ease-in-out);
+  .page-container {
+    .transition(0.5s ease-in-out);
+    background-image: url("/images/logo-text.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 588px auto;
+    height: 100px;
+  }
+}
+
+
+@media (max-width: @grid-float-breakpoint-max) {
+  .navbar {
+    min-height: 108px;
+  }
+  .navbar-brand-logo {
+    width: 134px;
+    margin-left: -67px - @sidebar-width / 2;
+  }
+}
+
+
+@media (max-width: @xs-header-with) {
+  .navbar {
+    min-height: 180px;
+    .page-container {
+      background-image: url("/images/logo-text-small.svg");
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-size: 300px auto;
+      height: 175px;
+    }
+  }
+  .navbar-brand-logo {
+    width: 134px;
+    margin-left: -67px - @sidebar-width / 2;
+  }
+}
+
+
+
+.navbar-default {
+
+  .container-fluid {
+    //padding: 0px;
+
+    .navbar-nav {
+
+      > li > a {
+        margin-top: 92px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-family: @brand-light-font;
+        font-weight: light;
+        font-size: 24px;
+        letter-spacing: 0.5px; // workaround Chrome font rendering quirks
+        .transition(0.2s ease-in-out);
+
+        &:hover,
+        &:focus {
+          color: @navbar-default-link-hover-color;
+          background-color: @navbar-default-link-hover-bg;
+        }
+      }
+
+      > .active > a {
+        &,
+        &:hover,
+        &:focus {
+          font-family: @brand-primary-font;
+          font-size: 38px;
+          color: @navbar-default-link-color;
+          background-color: @navbar-default-bg;
+        }
+      }
+
+      > li.meet-john > a {
+          margin-left: 8px;
+          margin-top: 2px;
+          padding: 90px 0px 0px 0px;
+          background-image: url("/images/meet-john.jpg");
+          background-repeat: no-repeat;
+          background-position: center top -3px;
+          background-size: auto 131px;
+          border-width: 0px;
+          border-style: solid;
+          border-color: fade(#fff, 90%);
+          span {
+            display: inline-block;
+            padding: 8px 15px;
+          }
+
+          &:hover,
+          &:focus {
+            span {
+              color: @navbar-default-link-hover-color;
+              background-color: @navbar-default-link-hover-bg;
+            }
+          }
+      }
+
+      > li.meet-john.active > a {
+        &,
+        &:hover,
+        &:focus {
+          background-image: none;
+          font-family: @brand-primary-font;
+          font-size: 38px;
+          span {
+            color: @navbar-default-link-color;
+            background-color: @navbar-default-bg;
+          }
+        }
+      }
+
+      &.navbar-right:last-child {
+        margin-right: @navbar-padding-horizontal;
+      }
+
+    }
+  }
+}

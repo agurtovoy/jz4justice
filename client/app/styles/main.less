@@ -1,71 +1,12 @@
 @import "../../bower_components/bootstrap/less/bootstrap.less";
 @import "bootstrap-variables.less";
-
-body {
-//    padding-top: 70px;
-}
-
-
-.paid-for-disclaimer {
-    background-color: white;
-    font-size: 12px;
-    font-style: italic;
-//    position: fixed;
-    margin-right: 10pt;
-    margin-bottom: 10pt;
-    float: right;
-//    bottom: 1.5%;
-}
-
-.social-buttons-sidebar {
-    ul {
-        margin: 0px;
-        margin-top: 10pt;
-        float: right;
-        li { list-style-type: none; display: inline-block; padding-right: 10px; }
-    }
-}
-
-
-footer .social-buttons-sidebar {
-  background-color: white;
-  ul {
-//    margin: 0px;
-//    position: fixed;
-//    right: 10pt;
-//    bottom: 5%;
-    li { list-style-type: none; display: inline-block; padding-right: 10px; }
-  }
-}
-
-.font-page-content {
-    margin-top: 50pt;
-    h1 { font-family: 'open-sans-condensed'; }
-}
-
-img.parallax {
-    position: fixed;
-    height: 88%;
-    top: 0;
-    left: 0;
-}
-
-img.brand-logo {
-    position: fixed;
-    bottom: 1.5%;
-    left: 30pt;
-    height: 9%;
-    width: auto;
-}
-
-@media (max-width: 990px){
-    img.parallax { display: none; }
-    img.brand-logo {
-      position: relative;
-      width: 300pt;
-      left: 0;
-      padding-top: 10pt;
-      padding-left: 15pt;
-      }
-
-  }
+@import "layout.less";
+@import "navbar.less";
+@import "sidebar.less";
+@import "footer.less";
+@import "days-to-election.less";
+@import "platform.less";
+@import "vote.less";
+@import "volunteer.less";
+@import "donate.less";
+@import "meet-john.less";

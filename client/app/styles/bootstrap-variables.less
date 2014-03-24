@@ -19,6 +19,7 @@
 // -------------------------
 
 @brand-primary:         #2d70b8;
+@brand-secondary:       #00aff3;
 @brand-success:         #5cb85c;
 @brand-warning:         #f0ad4e;
 @brand-danger:          #d9534f;
@@ -39,16 +40,20 @@
 // Typography
 // -------------------------
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
-@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
-@font-family-base:        @font-family-sans-serif;
+@brand-primary-font:      RamaGothicM-Bold;
+@brand-light-font:        RamaGothicM-Light;
+//@brand-light-font:        RamaGothicM-Semi-Bold;
 
-@font-size-base:          14px;
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       "Georgia Pro", Georgia, "Times New Roman", Times, serif;
+@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-serif;
+
+@font-size-base:          16px;
 @font-size-large:         ceil(@font-size-base * 1.25); // ~18px
 @font-size-small:         ceil(@font-size-base * 0.85); // ~12px
 
-@font-size-h1:            floor(@font-size-base * 2.6); // ~36px
+@font-size-h1:            floor(@font-size-base * 3.9); // ~36px
 @font-size-h2:            floor(@font-size-base * 2.15); // ~30px
 @font-size-h3:            ceil(@font-size-base * 1.7); // ~24px
 @font-size-h4:            ceil(@font-size-base * 1.25); // ~18px
@@ -58,7 +63,7 @@
 @line-height-base:        1.428571429; // 20/14
 @line-height-computed:    floor(@font-size-base * @line-height-base); // ~20px
 
-@headings-font-family:    @font-family-base;
+@headings-font-family:    @brand-primary-font, @font-family-base;
 @headings-font-weight:    500;
 @headings-line-height:    1.1;
 @headings-color:          inherit;
@@ -240,8 +245,17 @@
 @screen-md-max:              (@screen-lg-min - 1);
 
 
+// Page layout
+// --------------------------------------------------
+
+//@sidebar-width: 300px;
+@sidebar-width: 0px;
+@page-max-width: @screen-lg-min;
+
+
 // Grid system
 // --------------------------------------------------
+
 
 // Number of columns in the grid system
 @grid-columns:              12;
@@ -251,7 +265,7 @@
 // Navbar collapse
 
 // Point at which the navbar becomes uncollapsed
-@grid-float-breakpoint:     @screen-sm-min;
+@grid-float-breakpoint:     880px;
 // Point at which the navbar begins collapsing
 @grid-float-breakpoint-max: (@grid-float-breakpoint - 1);
 
@@ -260,34 +274,34 @@
 // -------------------------
 
 // Basics of a navbar
-@navbar-height:                    50px;
+@navbar-height:                    132px;
 @navbar-margin-bottom:             @line-height-computed;
 @navbar-border-radius:             @border-radius-base;
 @navbar-padding-horizontal:        floor(@grid-gutter-width / 2);
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 
-@navbar-default-color:             #777;
-@navbar-default-bg:                #f8f8f8;
-@navbar-default-border:            darken(@navbar-default-bg, 6.5%);
+@navbar-default-color:             #fff;
+@navbar-default-bg:                @brand-secondary;
+@navbar-default-border:            @brand-secondary;
 
 // Navbar links
-@navbar-default-link-color:                #777;
-@navbar-default-link-hover-color:          #333;
-@navbar-default-link-hover-bg:             transparent;
-@navbar-default-link-active-color:         #555;
-@navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);
+@navbar-default-link-color:                #fff;
+@navbar-default-link-hover-color:          #fff;
+@navbar-default-link-hover-bg:             @brand-primary;
+@navbar-default-link-active-color:         #fff;
+@navbar-default-link-active-bg:            transparent;
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;
 
 // Navbar brand label
 @navbar-default-brand-color:               @navbar-default-link-color;
-@navbar-default-brand-hover-color:         darken(@navbar-default-brand-color, 10%);
+@navbar-default-brand-hover-color:         @navbar-default-brand-color;
 @navbar-default-brand-hover-bg:            transparent;
 
 // Navbar toggle
-@navbar-default-toggle-hover-bg:           #ddd;
-@navbar-default-toggle-icon-bar-bg:        #ccc;
-@navbar-default-toggle-border-color:       #ddd;
+@navbar-default-toggle-hover-bg:           #0171d0;
+@navbar-default-toggle-icon-bar-bg:        #fff;
+@navbar-default-toggle-border-color:       #fff;
 
 
 // Inverted navbar

@@ -1,0 +1,27 @@
+
+<div class="page-container container-fluid vote">
+    <div class="row">
+        <div class="content-column">
+            <h1>2014 Democratic Primary<small>how, when and where do I vote?</small></h1>
+            <div class="content">
+                <p>John is running in the June 2014 Democratic primary. The election day is June 3rd. Early voting starts on
+                    April 24th and ends the day before the election day.</p>
+
+                <p>Any registered voter may vote early, and you can register to vote when you vote!
+                    There are <a href="http://www.johnson-county.com/dept_auditor.aspx?id=14448" target="_blank">three ways to vote early</a>:</p>
+
+                    <ul>
+                        <li>In person <em>at the Auditor's Office, Monday through Friday, 7:45 am - 5:30 pm.</em></li>
+                        <li>In person at any of the satellite early voting stations around Johnson County. These locations are announced before each election.</li>
+                        <li>By mail, by sending a signed <a href="http://www.johnson-county.com/WorkArea/linkit.aspx?LinkIdentifier=id&ItemID=14244&libID=14253" target="_blank">Absentee Ballot Request</a> to the Auditor's Office.</li>
+                    </ul>
+
+                <p>The satellite early voting locations will be announced as the election draws closer.
+                    <em>Text your email to 319-313-5433, and we will send you the info when it become available!</em></p>
+
+                <p>If you aren't already registered to vote in Johnson County, you'll also need to fill out a <a href="http://www.johnson-county.com/dept_auditor.aspx?id=14518" target="_blank">voter registration form</a>.</p>
+
+            </div>
+        </div>
+    </div>
+</div>

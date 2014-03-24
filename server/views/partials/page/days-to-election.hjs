@@ -1,0 +1,13 @@
+<div class="page-container container-fluid">
+    <div class="row">
+        <div class="days-to-election footer-column">
+            <h2><span class="count">{{daysToElection}}</span><span class="text"><small>days</small> until the election</span></h2>
+            <form class="form-inline" role="form">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Email or phone #">
+                </div>
+                <button type="submit" class="btn btn-primary">Remind me to vote!</button>
+            </form>
+        </div>
+    </div>
+</div>

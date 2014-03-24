@@ -1,0 +1,52 @@
+.container-fluid.meet-john {
+  background: url(/images/john-zimmerman-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .content-column {
+    margin-right: 50%;
+    margin-top: 80px;
+    padding: 25px;
+    background-color: rgba(255,255,255,0.9);
+    h1 {
+      margin-top: 0px;
+    }
+
+    .content {
+
+      p {
+        &:last-of-type {
+          margin-bottom: 0px;
+        }
+      }
+
+      &:after {
+        .center-block;
+        content: 'x';
+        font-family: 'GothicExtras-B';
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 40px;
+        color: @brand-secondary;
+      }
+    }
+  }
+
+  @media (max-width: @screen-lg-min) {
+    .content-column {
+      margin-right: auto;
+      margin-left: 40px;
+    }
+  }
+
+  @media (max-width: @content-column-max-width) {
+    .content-column {
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+  }
+}
+
