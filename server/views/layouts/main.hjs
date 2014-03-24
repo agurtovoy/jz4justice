@@ -17,6 +17,20 @@
     <link href="/stylesheets/webfonts.css" rel="stylesheet">
     <link href="/stylesheets/main.css" rel="stylesheet">
 
+    <!-- Webfonts -->
+    <script type="text/javascript">
+        function loadAsync( scriptURL ) {
+            var scriptNode = document.createElement('script'); scriptNode.type = 'text/javascript'; scriptNode.async = true;
+            scriptNode.src = scriptURL;
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore( scriptNode, s );
+        }
+    </script>
+
+    <script type="text/javascript">
+        loadAsync( "http://use.edgefonts.net/open-sans-condensed.js" );
+        loadAsync( "http://use.edgefonts.net/merienda-one.js" );
+    </script>
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
