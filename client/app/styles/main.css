@@ -7388,12 +7388,13 @@ td.visible-print {
 .days-to-election .count {
   font-family: "Georgia Pro", Georgia, "Times New Roman", Times, serif;
   font-size: 52px;
+  line-height: 50px;
   color: #00aff3;
   vertical-align: top;
 }
 
 .days-to-election .text {
-  font-family: 'Rama Slab Light';
+  font-family: 'RamaSlabM-Light';
   font-size: 50px;
 }
 

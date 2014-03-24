@@ -17,21 +17,6 @@
     <link href="/stylesheets/webfonts.css" rel="stylesheet">
     <link href="/stylesheets/main.css" rel="stylesheet">
 
-    <!-- Webfonts -->
-    <link href="//cloud.webtype.com/css/5e5d2129-5905-42cb-b594-34fd3278f00e.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript">
-        (function() {
-            var path = '//easy.myfonts.net/v2/js?sid=219937(font-family=Rama+Slab+Regular)&sid=219946(font-family=Rama+Slab+SemiBold)&sid=219947(font-family=Rama+Slab+Light)&sid=219950(font-family=Rama+Slab+Thin)&key=zLfPJQBSTw',
-                    protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
-                    trial = document.createElement('script');
-            trial.type = 'text/javascript';
-            trial.async = true;
-            trial.src = protocol + path;
-            var head = document.getElementsByTagName("head")[0];
-            head.appendChild(trial);
-        })();
-    </script>
-
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
