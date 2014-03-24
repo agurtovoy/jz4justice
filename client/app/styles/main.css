@@ -7205,7 +7205,6 @@ td.visible-print {
   font-family: RamaGothicM-Light;
   font-size: 24px;
   font-weight: light;
-  letter-spacing: 0.5px;
   -webkit-transition: 0.2s ease-in-out;
           transition: 0.2s ease-in-out;
 }
