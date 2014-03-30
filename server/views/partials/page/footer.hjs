@@ -22,7 +22,7 @@
                         </div>
                         <div class="col-sm-4 hidden-xs footer-small-column">
                             <address>Zimmerman for County Attorney<br>PO Box 3481, Iowa City, 52244</address>
-                            <img class="paid-by" src="/images/paid-by.svg">
+                            <img class="paid-by" src="/images/paid-by.svg" alt="Paid for Zimmerman for County Attorney">
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
             <div class="footer-column">
                 <div class="visible-xs">
                     <address>Zimmerman for County Attorney<br>PO Box 3481, Iowa City, 52244</address>
-                    <img class="paid-by" src="/images/paid-by.svg">
+                    <img class="paid-by" src="/images/paid-by.svg" alt="Paid for Zimmerman for County Attorney">
                 </div>
                 <div class="copyright">
                     &copy; Copyright 2014. Zimmerman for County Attorney Committee.

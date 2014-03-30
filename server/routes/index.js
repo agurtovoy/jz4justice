@@ -11,7 +11,7 @@ exports.page = function(pageName, req, res) {
   var daysToElection = daydiff(new Date(), new Date(2014,5,3));
   res.render( pageName, {
     pageName: pageName,
-    title: 'John Zimmerman for Johnson County Attorney',
+    title: 'Official Website',
     daysToElection: daysToElection,
     production: this.get('env') != 'development'
     } );

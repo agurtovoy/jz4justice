@@ -22,6 +22,10 @@
   }
 }
 
+.navbar-static-top {
+  border-bottom-width: 0px;
+}
+
 
 @media (max-width: @grid-float-breakpoint-max) {
   .navbar {
@@ -82,38 +86,51 @@
         &:hover,
         &:focus {
           font-family: @brand-primary-font;
-          font-size: 38px;
+          font-size: 36px;
           color: @navbar-default-link-color;
           background-color: @navbar-default-bg;
         }
       }
 
-      > li.meet-john > a {
-          margin-left: 8px;
-          margin-top: 2px;
-          padding: 90px 0px 0px 0px;
-          background-image: url("/images/meet-john.jpg");
-          background-repeat: no-repeat;
-          background-position: center top -3px;
-          background-size: auto 131px;
-          border-width: 0px;
-          border-style: solid;
-          border-color: fade(#fff, 90%);
-          span {
-            display: inline-block;
-            padding: 8px 15px;
-          }
-
-          &:hover,
-          &:focus {
-            span {
-              color: @navbar-default-link-hover-color;
-              background-color: @navbar-default-link-hover-bg;
-            }
-          }
+      > .donate > a {
+        background-color: #ff0000;
+//        margin-bottom: 8px;
+        &:hover,
+        &:focus {
+          background-color: #e00000;
+        }
       }
 
-      > li.meet-john.active > a {
+      > .donate.active > a {
+        background-color: @navbar-default-bg;
+      }
+
+      > .meet-john > a {
+        margin-left: 8px;
+        margin-top: 2px;
+        padding: 90px 0px 0px 0px;
+        background-image: url("/images/meet-john.jpg");
+        background-repeat: no-repeat;
+        background-position: center top -3px;
+        background-size: auto 131px;
+        border-width: 0px;
+        border-style: solid;
+        border-color: fade(#fff, 90%);
+        span {
+          display: inline-block;
+          padding: 8px 15px;
+        }
+
+        &:hover,
+        &:focus {
+          span {
+            color: @navbar-default-link-hover-color;
+            background-color: @navbar-default-link-hover-bg;
+          }
+        }
+      }
+
+      > .meet-john.active > a {
         &,
         &:hover,
         &:focus {

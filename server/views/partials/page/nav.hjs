@@ -12,7 +12,7 @@
             </button>
             }}
             <a class="navbar-brand-logo" href="/platform/">
-                <img src="/images/logo-scales.svg" alt="Zimmerman for County Attorney">
+                <img src="/images/logo-scales.svg" alt="Zimmerman for County Attorney official logo">
             </a>
         </div>
 
@@ -26,7 +26,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="{{pageActive pageName 'volunteer'}}"><a href="/volunteer/">Volunteer</a></li>
-                <li class="{{pageActive pageName 'donate'}}"><a href="/donate/">Donate</a></li>
+                <li class="{{pageActive pageName 'donate'}} donate"><a href="/donate/">Donate</a></li>
 {{!                <li><a href="../navbar-fixed-top/">Resources</a></li>
                 <li><a href="../navbar-fixed-top/">Blog</a></li>
                 }}
