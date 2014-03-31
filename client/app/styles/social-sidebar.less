@@ -1,0 +1,22 @@
+
+.social-sidebar-container {
+  position: relative;
+}
+
+
+.social-sidebar {
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 305px;
+  z-index: 1000;
+  background-color: @brand-secondary;
+}
+
+@media (max-width: @grid-float-breakpoint-max) {
+  .social-sidebar {
+    display: none;
+  }
+}

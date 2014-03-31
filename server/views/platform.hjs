@@ -31,124 +31,124 @@
     </div>
 </div>
 
+{{> page/social-sidebar}}
+
 <div class="page-container container-fluid platform-issues-list">
-    <div class="platform-issue">
 
-        <div class="row" id="end-over-prosecution">
-            <div class="platform-column-sidebar-left">
-                <h1 class="issue-num">#1</h1>
-            </div>
-            <div class="platform-column content-column">
-                <h1>End Over-Prosecution<small>of victimless offences</small></h1>
-                <div class="content">
-                    <p>Johnson County’s current criminal justice system prosecutes many people for victimless drug
-                        and alcohol offenses. These charges burden people with unnecessary criminal records and divert
-                        the system’s resources from protecting people from real crime.</p>
+    <div class="row platform-issue" id="end-over-prosecution">
+        <div class="platform-column-sidebar-left">
+            <h1 class="issue-num">#1</h1>
+        </div>
+        <div class="platform-column content-column">
+            <h1>End Over-Prosecution<small>of victimless offences</small></h1>
+            <div class="content" id="social-anchor">
+                <p>Johnson County’s current criminal justice system prosecutes many people for victimless drug
+                    and alcohol offenses. These charges burden people with unnecessary criminal records and divert
+                    the system’s resources from protecting people from real crime.</p>
 
-                        <p>If elected, John will end prosecutions for petty victimless crimes like having marijuana for
-                        personal use and public intoxication.</p>
+                    <p>If elected, John will end prosecutions for petty victimless crimes like having marijuana for
+                    personal use and public intoxication.</p>
 
-                        <p>If someone drives or harms someone while drunk or high, they will be prosecuted for that. But
-                        otherwise, these are not the sorts of things that should be in the criminal justice system.</p>
+                    <p>If someone drives or harms someone while drunk or high, they will be prosecuted for that. But
+                    otherwise, these are not the sorts of things that should be in the criminal justice system.</p>
 
-                        <p>With harder drugs, those with abuse problems will be channeled wherever possible into mental
-                        health and substance abuse treatment as an alternative to criminal prosecution.</p>
-                </div>
+                    <p>With harder drugs, those with abuse problems will be channeled wherever possible into mental
+                    health and substance abuse treatment as an alternative to criminal prosecution.</p>
             </div>
         </div>
-
-        <div class="row" id="review-all-charges">
-            <div class="platform-column-sidebar-left">
-                <h1 class="issue-num">#2</h1>
-            </div>
-            <div class="platform-column content-column">
-                <h1>Review All Charges<small>for seriousness, fairness, and supportable evidence</small></h1>
-                <div class="content">
-                    <p>Currently, many cases get prosecuted in ways that most reasonable people would consider too severe.
-                        In addition, the current practice is to prosecute every person the police arrest.</p>
-
-                        <p>If John is elected, prosecutors will screen all arrests carefully and immediately regarding whether the
-                        case should be in the criminal justice system at all. Every case comes out of a context and that context
-                        will be taken into account in making that evaluation. Cases that don’t pass that test of reasonable
-                        justice will be dismissed.</p>
-
-                        <p>A similar test will apply to specific charges and to recommended sentences. All decisions by the
-                        prosecutors should reflect a balanced sense of justice.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row" id="redirect-resources">
-            <div class="platform-column-sidebar-left">
-                <h1 class="issue-num">#3</h1>
-            </div>
-            <div class="platform-column content-column">
-                <h1>Redirect Resources<small>to solving serious crimes</small></h1>
-                <div class="content">
-                    <p>The core purpose of the criminal justice system should be to protect people from serious harm from
-                        others. The criminal justice system has limited resources. Removing petty and unnecessary cases from
-                        the system will allow resources to be focused more fully on its central mission. Of special priority will be
-                        aggressive prosecution of domestic violence and sexual assaults.</p>
-
-                        <p>A particular problem currently is that sexual assaults by acquaintances are under-reported and
-                        under-prosecuted. Devoting more resources to prosecuting this most serious of crimes will lead to more
-                        convictions. That, in turn, will encourage more victims to report because they will know that reporting
-                        will likely lead to the conviction of the perpetrator.</p>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row" id="end-racial-profiling">
-            <div class="platform-column-sidebar-left">
-                <h1 class="issue-num">#4</h1>
-            </div>
-            <div class="platform-column content-column">
-                <h1>End Racial Profiling<small>by dismissing racially-motivated charges</small></h1>
-                <div class="content">
-                    <p>Currently, Johnson County has a racial-profiling problem. From juvenile arrests to low-level marijuana
-                        prosecutions to the population of the county jail, African-Americans are over-represented to the extreme.
-                        Moving toward being one community in which all people feel equally part requires that these racial
-                        disparities be addressed aggressively and ended wherever they are unfair. No one should be in the
-                        criminal justice system because of the color of their skin.</p>
-
-                        <p>If John is elected, prosecutors will screen all arrests of people of color. They will ask the question,
-                        “Would this person have been arrested if they had been white?” If the answer is, "Probably not" or "No,"
-                        the case will be immediately dismissed and the arresting officer will be noted. Police officers are directly
-                        responsible to their local jurisdiction rather than to the county attorney. But officers will want to avoid
-                        being on the list of those suspected of making race-based arrests.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row" id="unclog-the-jail">
-            <div class="platform-column-sidebar-left">
-                <h1 class="issue-num">#5</h1>
-            </div>
-            <div class="platform-column content-column">
-                <h1>Unclog the Jail<small>by ending unwarranted pretrial detention</small></h1>
-                <div class="content">
-                    <p>If elected, John will end pre-trial detention through bond of those who are neither serious flight
-                        risks nor serious dangers to the community.</p>
-
-                        <p>Over three-quarters of the people in the Johnson County Jail have not been convicted. Rather,
-                        they have only been charged but are unable to pay the money that would get them out on bond
-                        before trial. A large number of these people (who legally are still innocent until proven guilty)
-                        are there for either misdemeanor-level or non-violent charges.</p>
-
-                        <p>Our system is supposed to be that people should only be punished after they've had a chance to
-                        challenge and defend against charges. That is still how the system works for people with money.
-                        For those who are poor, however, too often in Johnson County they are jailed without even
-                        having a chance to put up a defense. The presumption of innocence should not depend on the
-                        size of a person’s bank account. Therefore only in special situations should money be required
-                        to be free before trial.</p>
-
-                        <p>This approach will have the added benefit of reducing the number of prisoners in the
-                        overcrowded Johnson County Jail.</p>
-                </div>
-            </div>
-        </div>
-
     </div>
 
+    <div class="row platform-issue" id="review-all-charges">
+        <div class="platform-column-sidebar-left">
+            <h1 class="issue-num">#2</h1>
+        </div>
+        <div class="platform-column content-column">
+            <h1>Review All Charges<small>for seriousness, fairness, and supportable evidence</small></h1>
+            <div class="content">
+                <p>Currently, many cases get prosecuted in ways that most reasonable people would consider too severe.
+                    In addition, the current practice is to prosecute every person the police arrest.</p>
+
+                    <p>If John is elected, prosecutors will screen all arrests carefully and immediately regarding whether the
+                    case should be in the criminal justice system at all. Every case comes out of a context and that context
+                    will be taken into account in making that evaluation. Cases that don’t pass that test of reasonable
+                    justice will be dismissed.</p>
+
+                    <p>A similar test will apply to specific charges and to recommended sentences. All decisions by the
+                    prosecutors should reflect a balanced sense of justice.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row platform-issue" id="redirect-resources">
+        <div class="platform-column-sidebar-left">
+            <h1 class="issue-num">#3</h1>
+        </div>
+        <div class="platform-column content-column">
+            <h1>Redirect Resources<small>to solving serious crimes</small></h1>
+            <div class="content">
+                <p>The core purpose of the criminal justice system should be to protect people from serious harm from
+                    others. The criminal justice system has limited resources. Removing petty and unnecessary cases from
+                    the system will allow resources to be focused more fully on its central mission. Of special priority will be
+                    aggressive prosecution of domestic violence and sexual assaults.</p>
+
+                    <p>A particular problem currently is that sexual assaults by acquaintances are under-reported and
+                    under-prosecuted. Devoting more resources to prosecuting this most serious of crimes will lead to more
+                    convictions. That, in turn, will encourage more victims to report because they will know that reporting
+                    will likely lead to the conviction of the perpetrator.</p>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row platform-issue" id="end-racial-profiling">
+        <div class="platform-column-sidebar-left">
+            <h1 class="issue-num">#4</h1>
+        </div>
+        <div class="platform-column content-column">
+            <h1>End Racial Profiling<small>by dismissing racially-motivated charges</small></h1>
+            <div class="content">
+                <p>Currently, Johnson County has a racial-profiling problem. From juvenile arrests to low-level marijuana
+                    prosecutions to the population of the county jail, African-Americans are over-represented to the extreme.
+                    Moving toward being one community in which all people feel equally part requires that these racial
+                    disparities be addressed aggressively and ended wherever they are unfair. No one should be in the
+                    criminal justice system because of the color of their skin.</p>
+
+                    <p>If John is elected, prosecutors will screen all arrests of people of color. They will ask the question,
+                    “Would this person have been arrested if they had been white?” If the answer is, "Probably not" or "No,"
+                    the case will be immediately dismissed and the arresting officer will be noted. Police officers are directly
+                    responsible to their local jurisdiction rather than to the county attorney. But officers will want to avoid
+                    being on the list of those suspected of making race-based arrests.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row platform-issue" id="unclog-the-jail">
+        <div class="platform-column-sidebar-left">
+            <h1 class="issue-num">#5</h1>
+        </div>
+        <div class="platform-column content-column">
+            <h1>Unclog the Jail<small>by ending unwarranted pretrial detention</small></h1>
+            <div class="content">
+                <p>If elected, John will end pre-trial detention through bond of those who are neither serious flight
+                    risks nor serious dangers to the community.</p>
+
+                    <p>Over three-quarters of the people in the Johnson County Jail have not been convicted. Rather,
+                    they have only been charged but are unable to pay the money that would get them out on bond
+                    before trial. A large number of these people (who legally are still innocent until proven guilty)
+                    are there for either misdemeanor-level or non-violent charges.</p>
+
+                    <p>Our system is supposed to be that people should only be punished after they've had a chance to
+                    challenge and defend against charges. That is still how the system works for people with money.
+                    For those who are poor, however, too often in Johnson County they are jailed without even
+                    having a chance to put up a defense. The presumption of innocence should not depend on the
+                    size of a person’s bank account. Therefore only in special situations should money be required
+                    to be free before trial.</p>
+
+                    <p>This approach will have the added benefit of reducing the number of prisoners in the
+                    overcrowded Johnson County Jail.</p>
+            </div>
+        </div>
+    </div>
 </div>
+
+{{> page/social-footer}}

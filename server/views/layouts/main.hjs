@@ -48,6 +48,25 @@
         ga('send', 'pageview');
     </script>
     {{/production}}
+
+    <script type="text/javascript">
+        //<![CDATA[
+        (function() {
+            var shr = document.createElement('script');
+            shr.setAttribute('data-cfasync', 'false');
+            shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+            shr.type = 'text/javascript'; shr.async = 'true';
+            shr.onload = shr.onreadystatechange = function() {
+                var rs = this.readyState;
+                if (rs && rs != 'complete' && rs != 'loaded') return;
+                var site_id = '6acf67386d49cb0b0e13f80682a8224d';
+                try { Shareaholic.init(site_id); } catch (e) {}
+            };
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(shr, s);
+        })();
+        //]]>
+    </script>
 </head>
 
 <body class="{{pageName}}">
@@ -60,29 +79,16 @@
 {{> page/footer}}
 
 <script src="/javascripts/vendor.js"></script>
+<script src="/javascripts/client.js"></script>
 <script>
     require('client/bower_components/smooth-scroll/smooth-scroll');
     window.smoothScroll.init( { updateURL: true } );
 </script>
 
-<!-- Social media -->
 <script>
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+    require('client/app/app/social-sidebar');
+    window.socialSidebar.init( { anchor: '#social-anchor', distanceToFooter: 140 } );
 </script>
-<script type="text/javascript">
-    (function() {
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-        po.src = 'https://apis.google.com/js/plusone.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    })();
-</script>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 </body>
 </html>

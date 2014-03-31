@@ -1,7 +1,8 @@
+{{> page/social-sidebar}}
 
 <div class="page-container container-fluid volunteer">
     <div class="row">
-        <div class="content-column">
+        <div class="content-column" id="social-anchor">
             <h1>Want to volunteer?<small></small></h1>
             <div class="content">
                 <p>Awesome! John's campaign is run by grassroot activists just like you.
@@ -12,4 +13,6 @@
             </div>
         </div>
     </div>
+
+    {{> page/social-footer}}
 </div>

@@ -1,7 +1,8 @@
+{{> page/social-sidebar}}
 
 <div class="page-container container-fluid donate">
     <div class="row">
-        <div class="content-column">
+        <div class="content-column" id="social-anchor">
             <h1>Make a contribution to John's Campaign<small>no amount is too small!</small></h1>
             <div class="content">
                 <p>Click on the button below to make a credit card donation:</p>
@@ -19,8 +20,10 @@
                     PO Box 3481<br>
                     Iowa City, IA 52244
                 </address>
-
             </div>
         </div>
     </div>
+
+    {{> page/social-footer}}
+
 </div>

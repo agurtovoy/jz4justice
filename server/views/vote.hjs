@@ -1,9 +1,11 @@
 
+{{> page/social-sidebar}}
+
 <div class="page-container container-fluid vote">
     <div class="row">
         <div class="content-column">
             <h1>2014 Democratic Primary<small>how, when and where do I vote?</small></h1>
-            <div class="content">
+            <div class="content" id="social-anchor">
                 <p>John is running in the June 2014 Democratic primary. The election day is June 3rd. Early voting starts on
                     April 24th and ends the day before the election day.</p>
 
@@ -24,4 +26,6 @@
             </div>
         </div>
     </div>
+
+    {{> page/social-footer}}
 </div>

@@ -1,9 +1,11 @@
 
+{{> page/social-sidebar}}
+
 <div class="container-fluid meet-john">
     <div class="row">
         <div class="content-column">
             <h1>Meet John</h1>
-            <div class="content">
+            <div class="content" id="social-anchor">
                 <p>John Zimmerman, 46, has been a crusader for social justice throughout his life.
                     Horrified by how the Reagan administration treated the most vulnerable, John
                     took off a year during college from 1987-88 to try to get an electable Democratic
@@ -58,5 +60,8 @@
                     Wire, Oz, and Game of Thrones.</p>
             </div>
         </div>
+
+        {{> page/social-footer}}
+
     </div>
 </div>
