@@ -51,12 +51,14 @@ app.get( '/', routes.page.bind( app, 'platform' ) );
 app.get( '/platform', routes.page.bind( app, 'platform' ) );
 app.get( '/meet-john', routes.page.bind( app, 'meet-john' ) );
 app.get( '/vote', routes.page.bind( app, 'vote' ) );
+app.post( '/vote', routes.voting_reminder.bind( app ) );
 app.get( '/volunteer', routes.page.bind( app, 'volunteer' ) );
 app.get( '/donate', routes.page.bind( app, 'donate' ) );
 app.get( '/login', nationbuilder.login );
 app.get( '/admin', nationbuilder.admin );
 app.get( '/team-discussion', mailman.team_discussion );
 //app.get( '/users', user.list );
+
 
 exports.app = app;
 

@@ -2,6 +2,13 @@
 {{> page/social-sidebar}}
 
 <div class="page-container container-fluid vote">
+{{#if pledge}}
+    {{#unless pledgeError}}
+        <div class="alert alert-success">Thank you for pledging your vote! <strong>Please consider multiplying your impact</strong> by sharing this website and recruiting people you know to vote for Jonh!</div>
+    {{else}}
+        <div class="alert alert-danger">{{pledgeError}}</div>
+    {{/unless}}
+{{/if}}
     <div class="row">
         <div class="content-column">
             <h1>2014 Democratic Primary<small>how, when and where do I vote?</small></h1>

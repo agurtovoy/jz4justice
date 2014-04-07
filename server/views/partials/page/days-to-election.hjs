@@ -2,9 +2,9 @@
     <div class="row">
         <div class="days-to-election footer-column">
             <h2><span class="count">{{daysToElection}}</span><span class="text"><small>days</small> until the election</span></h2>
-            <form class="form-inline" role="form">
+            <form class="form-inline" role="form" action="/vote" method="post" novalidate>
                 <div class="form-group">
-                    <input type="email" class="form-control" id="email" placeholder="Email or phone #">
+                    <input type="email" class="form-control" id="email" name="phone_or_email" placeholder="Email or phone #" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Remind me to vote!</button>
             </form>

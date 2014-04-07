@@ -7720,6 +7720,22 @@ td.platform-column-sidebar-left {
   color: #666666;
 }
 
+.container-fluid.vote .alert {
+  position: relative;
+  z-index: 1050;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
+  border-top-width: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  opacity: 0.8;
+}
+
+.container-fluid.vote .alert-success {
+  background-color: #a2e1f4;
+  border-color: #00aff3;
+}
+
 .container-fluid.volunteer .content-column {
   margin-top: 80px;
   margin-bottom: 280px;
