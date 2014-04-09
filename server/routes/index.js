@@ -92,8 +92,14 @@ exports.yard_sign = function( pageName, req, res ) {
                 from: "yardsigns@jz4justice.org",
                 to: "yardsigns@jz4justice.org",
                 subject: util.format( "[Yard Sign Request] %s from %s wants %s sign(s)", formData.name, formData.city, formData.numberOfSigns ),
-                text: '\nLookup address on Google Maps: ' + googleMapsUrl +
-                      '\nSee all requests here: http://votenojusticecenter.org/admin/votenojusticecenter/yardsignrequest/'
+                text: [ 'Name: ' + formData.name,
+                        formData.email ? 'Email:' + formData.email : 'Phone: ' + formData.phone,
+                        'Address: ' + formData.address + ', ' + formData.city,
+                        '# of signs: ' + formData.numberOfSigns,
+                        'Delivery notes: ' + ( formData.notes || '' ),
+                        '',
+                        'Lookup address on Google Maps: ' + googleMapsUrl,
+                        'See all requests here: https://jz4justice.nationbuilder.com/admin/signups?filter_id=3' ].join( '\n' )
             } );
 
             request.post({ url: nb.baseUrl + '/people', json: true, body: { person: person, access_token: nb.accessToken } }, function( error, response, body ) {
