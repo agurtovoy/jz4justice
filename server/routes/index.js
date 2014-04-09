@@ -103,10 +103,31 @@ exports.yard_sign = function( pageName, req, res ) {
                         'See all requests here: https://jz4justice.nationbuilder.com/admin/signups?filter_id=3' ].join( '\n' )
             } );
 
-            request.post({ url: nb.baseUrl + '/people', json: true, body: { person: person, access_token: nb.accessToken } }, function( error, response, body ) {
-                console.log([error, body]);
-                exports.page.call( this, pageName, req, res, renderOptions );
-            }.bind( this ) );
+            var addNew = function() {
+                console.log( 'creating new' );
+                request.post({ url: nb.baseUrl + '/people', json: true, body: { person: person, access_token: nb.accessToken } }, function( error, response, body ) {
+                    console.log([error, body]);
+                    exports.page.call( this, pageName, req, res, renderOptions );
+                }.bind( this ) );
+            }.bind( this );
+
+            if ( person.email ) {
+                request.get({ url: nb.baseUrl + '/people/match', json: true, body: { email: person.email, access_token: nb.accessToken } }, function(error, response, body) {
+                    if (body.person) {
+                        console.log( body.person );
+                        person.tags = body.person.tags.concat( person.tags );
+                        if ( !person.phone ) delete person.phone;
+                        delete person.note;
+                        request.put({ url: nb.baseUrl + '/people/' + body.person.id, json: true, body: { person: person, access_token: nb.accessToken } }, function( error, response, body ) {
+                            console.log([error, body]);
+                            exports.page.call( this, pageName, req, res, renderOptions );
+                        }.bind( this ) );
+                    } else
+                        addNew();
+                }.bind( this ) );
+            }
+            else
+                addNew();
             return;
         }
     } else {
