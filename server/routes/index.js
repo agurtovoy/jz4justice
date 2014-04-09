@@ -93,7 +93,7 @@ exports.yard_sign = function( pageName, req, res ) {
                 to: "yardsigns@jz4justice.org",
                 subject: util.format( "[Yard Sign Request] %s from %s wants %s sign(s)", formData.name, formData.city, formData.numberOfSigns ),
                 text: [ 'Name: ' + formData.name,
-                        'Email:' + ( formData.email || '' ),
+                        'Email: ' + ( formData.email || '' ),
                         'Phone: ' + ( formData.phone || '' ),
                         'Address: ' + formData.address + ', ' + formData.city,
                         'Number of signs: ' + formData.numberOfSigns,
