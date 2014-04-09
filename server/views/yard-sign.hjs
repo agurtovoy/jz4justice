@@ -1,0 +1,32 @@
+{{> page/social-sidebar}}
+
+<div class="page-container container-fluid yard-sign">
+    <div class="row">
+        <div class="wide-content-column">
+            <div class="content">
+                {{#if justRequested}}
+                    <h1>Thank you for your support, {{firstName}}!</h1>
+                    <p id="social-anchor">{{thankYou}}</p>
+
+                    <div class="call-to-action">
+                        <p><strong>If you can afford it, please consider making an in-kind contribution</strong>
+                            to John's campaign to cover the cost of the yard signs and to allow us to continue
+                            working on bringing about the much needed change:</p>
+
+                        {{> page/donate-form}}
+                    </div>
+                {{else}}
+                    <h1>Want to display your support? Let us know!</h1>
+                    <p id="social-anchor">If you would like to show your support with a yard sign, let us know by completing the form below &mdash;
+                    or emailing us at <a href="mailto:yardsigns@jz4justice.org">yardsigns@jz4justice.org</a> &mdash;
+                    and somebody from our team will get in touch with you within a day!</p>
+
+                    {{> page/yard-sign-form}}
+                {{/if}}
+            </div>
+        </div>
+    </div>
+
+    {{> page/social-footer}}
+
+</div>

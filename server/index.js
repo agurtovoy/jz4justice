@@ -8,6 +8,7 @@ var http = require('http');
 var path = require('path');
 var routes = require('./routes');
 var exphbs = require('express3-handlebars');
+var expressValidator = require('express-validator');
 
 var user = require('./routes/user');
 var nationbuilder = require('./routes/nationbuilder');
@@ -35,6 +36,8 @@ app.use(express.urlencoded());
 app.use(express.methodOverride());
 app.use(express.cookieParser('your secret here'));
 app.use(express.session());
+app.use(express.bodyParser());
+app.use(expressValidator());
 app.use(app.router);
 
 var publicDir = path.join( __dirname, '..', 'public' );
@@ -49,6 +52,8 @@ if ('development' == app.get('env')) {
 
 app.get( '/', routes.page.bind( app, 'platform' ) );
 app.get( '/platform', routes.page.bind( app, 'platform' ) );
+app.get( '/yard-sign', routes.yard_sign.bind( app, 'yard-sign' ) );
+app.post( '/yard-sign', routes.yard_sign.bind( app, 'yard-sign' ) );
 app.get( '/meet-john', routes.page.bind( app, 'meet-john' ) );
 app.get( '/vote', routes.page.bind( app, 'vote' ) );
 app.post( '/vote', routes.voting_reminder.bind( app ) );
@@ -57,6 +62,7 @@ app.get( '/donate', routes.page.bind( app, 'donate' ) );
 app.get( '/login', nationbuilder.login );
 app.get( '/admin', nationbuilder.admin );
 app.get( '/team-discussion', mailman.team_discussion );
+app.post( '/auth/nb/callback', nationbuilder.callback );
 //app.get( '/users', user.list );
 
 

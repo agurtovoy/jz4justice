@@ -3765,8 +3765,12 @@ input[type="button"].btn-block {
 
 .btn-group-lg > .btn {
   padding: 10px 16px;
+  padding: 4px 14px;
+  font-family: RamaGothicM-Bold;
   font-size: 20px;
+  font-size: 32px;
   line-height: 1.33;
+  line-height: 1;
   border-radius: 2px;
 }
 
@@ -7137,12 +7141,49 @@ td.visible-print {
           transition: 0.2s ease-in-out;
 }
 
+.wide-content-column {
+  display: block;
+  float: none;
+  width: 740px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transition: 0.2s ease-in-out;
+          transition: 0.2s ease-in-out;
+}
+
 @media (max-width: 580px) {
   .content-column {
     width: 100%;
     padding-right: 20px;
     padding-left: 20px;
   }
+}
+
+@media (max-width: 780px) {
+  .wide-content-column {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.btn-primary {
+  background-color: #00aff3;
+  border-color: #00aff3;
+  -webkit-transition: 0.2s ease-in-out;
+          transition: 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #27c3ff;
+  border-color: #27c3ff;
+}
+
+.btn-lg {
+  padding: 4px 14px;
+  font-family: RamaGothicM-Bold;
+  font-size: 32px;
+  line-height: 1;
 }
 
 .navbar-brand-logo {
@@ -7468,16 +7509,18 @@ td.visible-print {
   margin-right: 5px;
 }
 
-.days-to-election .form-inline .btn {
+.days-to-election .form-inline .btn-primary {
   padding: 4px 14px;
   font-family: RamaGothicM-Bold;
   font-size: 32px;
-  line-height: 32px;
+  line-height: 1;
+  background-color: #2d70b8;
+  border-color: #2d70b8;
   -webkit-transition: 0.2s ease-in-out;
           transition: 0.2s ease-in-out;
 }
 
-.days-to-election .form-inline .btn:hover {
+.days-to-election .form-inline .btn-primary:hover {
   background-color: #00aff3;
   border-color: #00aff3;
 }
@@ -7698,6 +7741,75 @@ td.platform-column-sidebar-left {
   margin-bottom: 40px;
 }
 
+.container-fluid.yard-sign .wide-content-column {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.container-fluid.yard-sign .wide-content-column h1 {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 57px;
+  line-height: 0.9;
+  -webkit-transition: 0.2s ease-in-out;
+          transition: 0.2s ease-in-out;
+}
+
+.container-fluid.yard-sign .wide-content-column h1 small {
+  display: block;
+  font-family: RamaGothicM-Light;
+  font-size: 35px;
+  font-weight: lighter;
+  color: #666666;
+}
+
+.container-fluid.yard-sign .yard-sign-request {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.container-fluid.yard-sign .yard-sign-request .yard-sign {
+  width: 177px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  border: 1px solid #eeeeee;
+}
+
+.container-fluid.yard-sign .yard-sign-request .control-label {
+  padding-right: 0;
+  font-family: RamaGothicM-Light;
+  font-size: 21px;
+  line-height: 1;
+  color: #00aff3;
+}
+
+.container-fluid.yard-sign .yard-sign-request input {
+  border-color: #00aff3;
+}
+
+.container-fluid.yard-sign .yard-sign-request .alert {
+  position: relative;
+  z-index: 1050;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
+  opacity: 0.8;
+}
+
+.container-fluid.yard-sign .call-to-action {
+  padding: 20px;
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+.container-fluid.yard-sign .call-to-action hr {
+  border-top-color: #a6e1ec;
+}
+
+.container-fluid.yard-sign .call-to-action .alert-link {
+  color: #245269;
+}
+
 .container-fluid.vote .content-column {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -7784,20 +7896,6 @@ td.platform-column-sidebar-left {
   font-size: 35px;
   font-weight: lighter;
   color: #666666;
-}
-
-.container-fluid.donate .content-column .btn {
-  padding: 4px 14px;
-  font-family: RamaGothicM-Bold;
-  font-size: 32px;
-  line-height: 32px;
-  -webkit-transition: 0.2s ease-in-out;
-          transition: 0.2s ease-in-out;
-}
-
-.container-fluid.donate .content-column .btn:hover {
-  background-color: #00aff3;
-  border-color: #00aff3;
 }
 
 .container-fluid.donate .content-column address {

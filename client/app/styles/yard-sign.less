@@ -1,0 +1,59 @@
+.container-fluid.yard-sign {
+  .wide-content-column {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    h1 {
+      margin-top: 10px;
+      line-height: 0.9;
+      font-size: 57px;
+      display: inline-block;
+      .transition(0.2s ease-in-out);
+
+      small {
+        display: block;
+        font-family: @brand-light-font;
+        font-weight: lighter;
+        font-size: 35px;
+        color: #666666;
+      }
+    }
+  }
+
+  .yard-sign-request {
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+    .yard-sign {
+      width: 177px;
+      margin-left: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #eeeeee;
+    }
+
+    .control-label {
+      font-family: @brand-light-font;
+      font-size: 21px;
+      line-height: 1;
+      padding-right: 0px;
+      color: @brand-secondary;
+    }
+
+    input {
+      border-color: @brand-secondary;
+    }
+
+    .alert {
+      font-family: @font-family-sans-serif;
+      position: relative;
+      z-index: @zindex-modal;
+      color: #000;
+      opacity: 0.8;
+    }
+  }
+
+  .call-to-action {
+    .alert-info;
+    padding: 20px;
+  }
+}

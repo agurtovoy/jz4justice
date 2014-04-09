@@ -20,6 +20,7 @@
             <ul class="nav navbar-nav">
                 <li class="{{pageActive pageName 'platform'}}"><a href="/platform/">Platform</a></li>
                 <li class="{{pageActive pageName 'vote'}}"><a href="/vote/">Where do I vote?</a></li>
+                <li class="{{pageActive pageName 'yard-sign'}}"><a href="/yard-sign/">Get a Yard Sign!</a></li>
 {{!
                 <li class=""><a href="/yard-sign/">Get a Yard Sign!</a></li>
                 <li><a href="#contact">Events</a></li>}}
