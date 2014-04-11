@@ -19,7 +19,7 @@
                     <h1>Want to display your support? Let us know!</h1>
                     <p id="social-anchor">If you would like to show your support with a yard sign, let us know by completing the form below &mdash;
                     or emailing us at <a href="mailto:yardsigns@jz4justice.org">yardsigns@jz4justice.org</a> &mdash;
-                    and somebody from our team will get in touch with you within a day!</p>
+                    and we'll bring one to you!</p>
 
                     {{> page/yard-sign-form}}
                 {{/if}}
