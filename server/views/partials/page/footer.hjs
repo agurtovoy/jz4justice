@@ -35,7 +35,7 @@
                     <img class="paid-by" src="/images/paid-by.svg" alt="Paid for Zimmerman for County Attorney">
                 </div>
                 <div class="copyright">
-                    &copy; Copyright 2014. Zimmerman for County Attorney Committee.&ensp;Made with <span class="glyphicon glyphicon-heart"></span>&ensp;in Iowa City.
+                    &copy; Copyright 2014. Zimmerman for County Attorney Committee.&ensp;Made with <span class="glyphicon glyphicon-heart"></span><span class="sr-only">love</span>&ensp;in Iowa City.
                 </div>
             </div>
         </div>
