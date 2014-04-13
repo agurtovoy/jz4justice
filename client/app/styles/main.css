@@ -7407,6 +7407,12 @@ td.visible-print {
   text-align: center;
 }
 
+.page-footer .copyright .glyphicon-heart {
+  position: relative;
+  top: 2px;
+  width: 15px;
+}
+
 .page-footer address {
   margin-top: 5px;
   margin-bottom: 7px;
