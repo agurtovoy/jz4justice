@@ -7408,6 +7408,7 @@ body p {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 12px;
+  -webkit-font-smoothing: antialiased;
   color: #cccccc;
   text-align: center;
 }
@@ -7423,6 +7424,7 @@ body p {
   margin-bottom: 7px;
   margin-left: 3px;
   font-size: 12px;
+  -webkit-font-smoothing: antialiased;
   line-height: 14px;
 }
 
@@ -7473,10 +7475,15 @@ body p {
 .footer-small-column ul a .at {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
+  font-weight: 100;
 }
 
 .footer-small-column address {
   margin-top: 55px;
+}
+
+.days-to-election {
+  -webkit-font-smoothing: antialiased;
 }
 
 .days-to-election h2 {
