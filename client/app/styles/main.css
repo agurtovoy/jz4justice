@@ -7473,9 +7473,7 @@ body p {
 }
 
 .footer-small-column ul a .at {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 100;
+  font-family: muli, sans-serif;
 }
 
 .footer-small-column address {

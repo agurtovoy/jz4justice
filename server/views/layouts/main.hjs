@@ -28,8 +28,8 @@
     </script>
 
     <script type="text/javascript">
-        loadAsync( "http://use.edgefonts.net/open-sans-condensed.js" );
-        loadAsync( "http://use.edgefonts.net/merienda-one.js" );
+        loadAsync( "http://use.edgefonts.net/muli:n3.js" );
+        loadAsync( "http://use.edgefonts.net/lato:n3.js");
     </script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
