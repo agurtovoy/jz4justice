@@ -7720,11 +7720,9 @@ td.platform-column-sidebar-left {
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 555px) {
   .platform-quote {
-    background-image: url("/images/ripped-paper-background.svg");
-    background-repeat: no-repeat;
-    background-size: auto 280px;
+    background-size: cover;
   }
 }
 
