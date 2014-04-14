@@ -3766,6 +3766,7 @@ input[type="button"].btn-block {
 .btn-group-lg > .btn {
   padding: 10px 16px;
   padding: 4px 14px;
+  padding-top: 5px;
   font-family: RamaGothicM-Bold;
   font-size: 20px;
   font-size: 32px;
@@ -7185,6 +7186,7 @@ body p {
 
 .btn-lg {
   padding: 4px 14px;
+  padding-top: 5px;
   font-family: RamaGothicM-Bold;
   font-size: 32px;
   line-height: 1;
@@ -7452,7 +7454,7 @@ body p {
   font-family: RamaGothicM-Light;
   font-size: 22px;
   font-weight: light;
-  line-height: 24px;
+  line-height: 1;
   color: #00aff3;
 }
 
@@ -7741,6 +7743,7 @@ td.platform-column-sidebar-left {
 
 .platform-issue .content:after {
   display: block;
+  margin-top: 10px;
   margin-right: auto;
   margin-bottom: 40px;
   margin-left: auto;
