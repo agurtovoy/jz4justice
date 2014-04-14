@@ -71,7 +71,6 @@
         font-family: @brand-light-font;
         font-weight: light;
         font-size: 24px;
-        //letter-spacing: 0.5px; // workaround Chrome font rendering quirks
         .transition(0.2s ease-in-out);
 
         &:hover,
@@ -87,6 +86,7 @@
         &:focus {
           font-family: @brand-primary-font;
           font-size: 36px;
+          -webkit-font-smoothing: antialiased;
           color: @navbar-default-link-color;
           background-color: @navbar-default-bg;
         }

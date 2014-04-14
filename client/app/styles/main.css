@@ -7115,6 +7115,10 @@ td.visible-print {
   }
 }
 
+body p {
+  -webkit-font-smoothing: antialiased;
+}
+
 .page-container {
   max-width: 1200px;
   padding-right: 0;
@@ -7265,6 +7269,7 @@ td.visible-print {
 .navbar-default .container-fluid .navbar-nav > .active > a:focus {
   font-family: RamaGothicM-Bold;
   font-size: 36px;
+  -webkit-font-smoothing: antialiased;
   color: #ffffff;
   background-color: #00aff3;
 }
@@ -7483,7 +7488,7 @@ td.visible-print {
 }
 
 .days-to-election .count {
-  font-family: "Georgia Pro", Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 52px;
   line-height: 50px;
   color: #00aff3;
