@@ -7726,6 +7726,21 @@ td.platform-column-sidebar-left {
   }
 }
 
+@media (max-width: 400px) {
+  .platform-quote {
+    background-image: none;
+  }
+  .platform-quote blockquote {
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: solid 5px #eee;
+  }
+  .platform-quote blockquote p {
+    text-align: left;
+  }
+}
+
 .platform-issue h1 {
   display: inline-block;
   margin-top: 10px;
