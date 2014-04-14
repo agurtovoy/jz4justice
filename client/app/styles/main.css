@@ -7686,7 +7686,8 @@ td.platform-column-sidebar-left {
 .platform-quote {
   background-image: url("/images/ripped-paper-background.svg");
   background-position: center top;
-  background-repeat: repeat-x;
+  background-repeat: repeat no-repeat;
+  background-size: 427px 208px;
 }
 
 .platform-quote blockquote {
